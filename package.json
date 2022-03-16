@@ -1,0 +1,15 @@
+{
+	"name": "poc-graphql",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon apollo-server.js"
+	},
+	"dependencies": {
+		"apollo-server": "^3.6.4",
+		"graphql": "^16.3.0",
+		"nodemon": "^2.0.15",
+		"sqlite3": "^5.0.2"
+	}
+}
